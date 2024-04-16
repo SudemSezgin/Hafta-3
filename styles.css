@@ -43,4 +43,56 @@ background-color: rgb(168, 88, 221);
 .menu{
     display: flex;
     justify-content: space-between;
+    border: 1px;
+    width: 1000px;
+}
+
+.menu-container{
+    color: rgb(0, 0, 0);
+    background-color: rgb(121, 184, 239);
+    padding: 20px 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.flex-item{
+    flex: 0 1 auto;
+    align-self: center;
+    order: 2;
+    text-align: center;
+}
+
+.header-container{
+    color: rgb(150, 222, 232);
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo-grid-container{
+    display: flex;
+    justify-content: center;
+}
+.photo-grid{
+    width: 900px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.photo-grid-item{
+    border: 1px;
+    width: 300px;
+    height: 300px;
 }
