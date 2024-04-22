@@ -148,3 +148,118 @@ p{
 h1{
     padding-left: 30px;
 }
+.photo-grid-container .img{
+    width: 5px;
+    height: 5x;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: sans-serif;
+    background-image: url(images.jpg);
+    background-size: cover;
+}
+a{
+    color: black;
+}
+header{
+    height: 100px;
+    border-bottom: 2px solid rgba(236, 208, 166, 0.74);
+}
+.container{
+    width: 80%;
+    background-color: solid rgba(232, 208, 173, 0.74);
+    margin: auto;
+}
+/*! header start */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+}
+header nav .logo a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 50px;
+}
+nav ul a{
+    color: black;
+    text-decoration: none;
+    transition: color .25s ease;
+}
+nav ul a:hover{
+    color: rgb(32, 145, 145);
+
+}
+nav .menu{
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+}
+
+nav .menu-button{
+    color: black;
+    text-decoration: none;
+    background-color: azure;
+    padding: 10px 18px;
+    border-radius: 45px;
+    transition: all .25s ease;
+}
+nav .menu-button:hover{
+    color: rgb(40, 155, 150);
+
+}
+/*! header end */
+
+/*! section start */
+.content{
+    color: black;
+    height: calc(100vh-100px);
+    padding-top: 100px;
+}
+.content h1{
+    font-size: 40px;
+    text-align: center;
+}
+.content h2{
+    font-size: 40px;
+    text-align: center;
+}
+.content p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+    .content .links{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 80px;
+
+}
+.content .links a{
+    background-color: rgb(178, 212, 212);
+    padding: 20px;
+    width: 280px;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 45px;
+    transition: all .25s ease-in;
+}
+.content .links a:hover{
+    background-color: rgb(99, 195, 200);
+    color: rgb(236, 245, 245);
+}
+/*! section end */
