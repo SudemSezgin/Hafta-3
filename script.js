@@ -56,3 +56,31 @@ if(age>=18) {
 else{
     console.log("You are a minor.")
 }
+let b=document.getElementById('X')
+console.log (b)
+let gesudem=document.getElementsByClassName('photo-grid-container')
+console.log (gesudem)
+let su=document.getElementsByTagName('div')
+console.log(su)
+let sudem=document.querySelector('div')
+console.log(sudem)
+
+b.innerHTML='<p> Hakkimda <p>'
+function changeImageSource() {
+    let ha =document.getElementById('PP')
+
+let hb ='beylerbeyi-sarayi-01.jpg'
+ha.setAttribute ('src', hb)
+
+ha.setAttribute ('beylerbeyi-sarayi-01.jpg','hb')
+}
+function eee(){
+    let Y=document.getElementById('Y')
+    Y.classList.add('sud')
+}
+function createNewDiv(){
+    let newDiv=document.createElement('div')
+    newDiv.classList.add('newDiv')
+    newDiv.textContent='hello'
+    document.body.appendChild(newDiv)
+}

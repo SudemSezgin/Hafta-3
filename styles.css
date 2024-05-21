@@ -262,4 +262,12 @@ nav .menu-button:hover{
     background-color: rgb(99, 195, 200);
     color: rgb(236, 245, 245);
 }
+.sud{
+    font-style:italic ;
+}
+.newDiv {
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+}
 /*! section end */

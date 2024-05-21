@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SudemSezgin</title>
-</head>
+    </head>
 <body>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,9 +24,10 @@
 
     <h1 class="main-content">Sudem Sezgin</h1>
 
-    <h2>Benim Hakkimda</h2>
-    <p>İstanbul'da mimarlik eğitimi almaktayim. 2.senemdeyim ve kendimi farkli alanlarda geliştirmek için çabaliyorum.
+    <h2 id="X">Benim Hakkimda</h2>
+    <p id="Y">İstanbul'da mimarlik eğitimi almaktayim. 2.senemdeyim ve kendimi farkli alanlarda geliştirmek için çabaliyorum.
          Yazilim ve çizim programlari öğreniyorum.</p>
+         <button onclick="eee()">Add Italic</button>
 
     <h3>Hobilerim</h3>
     
@@ -79,7 +80,7 @@
                 <img src="beylerbeyi-sarayi-01.jpg" style="width:300px;height: 300px">  
             </div>
             <div class="photo-grid-item last-item">
-                <img src="ronesans_3.jpg" style="width:300px;height: 300px">
+                <img id="PP" src="ronesans_3.jpg" style="width:300px;height: 300px">
             </div>
         </div>
     </div>
@@ -89,8 +90,19 @@
         <div class="flex-item">Sudem Sezgin</div>
         <div class="flex-item">20221301113</div>
     </div>
+  
+<button onclick="changeImageSource()"> change Image Source</button>
+<button onclick="createNewDiv()">Create New Div</button>
     
     
+<script src="script.js"></script>
+
+<script>function createNewDiv(){
+    let newDiv=document.createElement('div')
+    newDiv.classList.add('newDiv')
+    newDiv.textContent='hello'
+    document.body.appendChild(newDiv)
+}</script>
 </body>
 
     </html>
