@@ -65,7 +65,7 @@ console.log(su)
 let sudem=document.querySelector('div')
 console.log(sudem)
 
-b.innerHTML='<p> Hakkimda <p>'
+
 function changeImageSource() {
     let ha =document.getElementById('PP')
 
@@ -83,4 +83,11 @@ function createNewDiv(){
     newDiv.classList.add('newDiv')
     newDiv.textContent='hello'
     document.body.appendChild(newDiv)
+}
+let Buton =document.getElementById('SudeminButonu')
+Buton.addEventListener('click', function(event) {
+    console.log ('Button clicked!',event)
+})
+function countRabbits() {
+    for(let i=1; i<=3; i++) { alert("Rabbit number "+i)}
 }
